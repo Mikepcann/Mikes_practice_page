@@ -2,7 +2,7 @@
 /* hmtl tag selectors */
 body {
     z-index: 2;
-    background-color:rgb(206, 210, 221);
+    background-color:rgb(162, 165, 173);
 }
 h1 {
     font-family: 'Times New Roman', Times, serif;
@@ -49,6 +49,7 @@ li, ul, ol, dl {
 h4, footer {
     background: rgb(164, 187, 195);
 }
+/*test comment*/ 
 
 #navigation {
   height: 100%; /* Full-height: remove this if you want "auto" height */
