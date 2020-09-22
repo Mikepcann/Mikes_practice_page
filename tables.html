@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+        <title>Tables</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="">       
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+        <link href="structure.css" rel="stylesheet">
+        <style>
+            table, td, tr, tbody, thead, th, tfoot  { border: 2px solid black;
+
+            }
+
+        </style>
+
+        <script>
+            
+        </script>
+</head>
+    <body>
+        <h1>Tables Examples</h1>
+        <div id="centerDoc">
+        <p>Here we will use "table" tags to create a table. It can be used to diplay price lists, 
+            and spreadsheet like charts. "tr" creates the table rows,
+            and "td" creats the table data.
+        </p>
+
+        <h4>List of Favourite Bands</h4>
+        <table>
+            <thead>
+                <th>Name of Band</th>
+                <th>Ranking</th>
+                <th>Style of Band</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>The Beatles</td>
+                    <td>#1</td>
+                    <td>Psyadelic Rock</td>
+                </tr>
+                <tr>
+                    <td>Jimi Hendrix</td>
+                    <td>#2</td>
+                    <td>Acid Rock</td>
+                </tr>
+                <tr>
+                    <td>Cream</td>
+                    <td>#3</td>
+                    <td>Rock</td>
+                </tr>
+                <tr>
+                    <td>The Eagles</td>
+                    <td>#4</td>
+                    <td>Rock</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td>Example</td>
+                <td>Of</td>
+                <td>Footer</td>
+            </tfoot>
+        </table>
+
+        <p>To format tables to be clear and easy to manipulate with JS or CSS we can use "thead" to create the head of the table. Then use "th"
+            to centre and bold those cell items. "tbody" will create the <b>body</b> of the the table. Start by using "tr" open and close and then
+            inset the "td" to fill out the rows with information. You can then end the table with the "tfoot" to finish off the table.
+        </p>
+        <p>Don't forget to add instructions to the "style" at the top of the page or in a seperate style.css to make the table have a border.<br>
+        That can look like this: "style" table, td "{ border: 1px solid black}" and close the "style tag.</p>
+        <footer>Contant me here by <a href="mailto:mikepcannbass@gmail.com">email</a> or by phone at
+            <b>403.629.5882</b></footer>
+    </div>
+        <nav>
+        
+            <ul id="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lists.html">Lists</a></li>             
+                <li><a href="forms.html">Forms</a></li>        
+                <li><a href="tables.html">Tables</a></li>    
+                <li><a href="extras.html">Extras</a></li>    
+            </ul>
+        </nav>
+        
+    </body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+        <title>Forms</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="">       
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+        <link href="structure.css" rel="stylesheet">
+        <style>
+           
+        </style>
+
+        <script>
+            
+        </script>
+</head>
+    <body>
+        <h1>Forms Examples</h1>
+        <div id="centerDoc">
+        <p>On this page we will be talking about the different types of forms that can be used on an html page.</p>
+        <h4>Types of forms</h4>
+        <ul>
+            <li>Text Boxes</li>            
+            <li>Dropdown Boxes</li>
+            <li>Radio Buttons</li>
+            <li>Check Boxes</li>
+            <li>Text Area</li>
+            <li>Submit Button</li>      
+         </ul>
+
+         <h4>Text boxes</h4>    
+        <p> With text boxes you will start with open and close "form" tags, then inout tag with type="text". 
+            If you give the input a name of "password" it with star out the characters to keep it hidden. </p>
+        <p>If you add a "placeholder" attribute to the input tag, you can insert gery text to tell the user 
+            what they shold be inputing into the input box.
+        </p>
+        <form>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="username">
+            <br>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="password">
+            <br>
+            <input type="submit" value="enter">
+        </form>
+        
+        <h4>Dropdown Boxes</h4>
+        <p> Downdown boxes are also know as option boxes. Start with a "form" tag followed by "select" open and close tags.
+            the put in "option" tags with a value (which is sent when that particular item is selected)</p>
+        
+        <form>
+            <label>Type of Car:</label> 
+            <select>
+                <option value=""></option>
+                <option value="toyota">Toyota</option>
+                <option value="ford">Ford</option>    
+                <option value="honda">Honda</option>
+                <option value="nissan">Nissan</option>
+                <option value="jeep">Jeep</option>
+            </select>
+            <br>
+            <input type="submit" value="enter">
+        </form>
+        <h4>Radio Button</h4>
+        <p>With a radio button you have multiple items to select from but you can only choose <b>one</b>. Buttoms must have the same "name" attribute
+        to be grouped together and have one selected. The value is what is submited to the target.</p>
+
+        <form>
+            <label>Favourite Food:</label> 
+            <br>
+            <input type="radio" name="food" value="taco">Taco
+            <input type="radio" name="food" value="pizza">Pizza
+            <input type="radio" name="food" value="pasta">Pasta
+            <br>
+            <input type="submit" value="enter">
+        </form>
+        <h4>Checkboxes</h4>
+        <p>With Checkboxes you are given multiple choices and you can select <b>multiple</b> choices. Each input will have its own value, that is submitted to the target.</p>
+        <form>
+            <label>Favourite Method of Transportation:</label>
+            <br>
+            <input type="checkbox" name="bike" value="bike">Bike
+            <input type="checkbox" name="car" value="car">Car
+            <input type="checkbox" name="walking" value="Walking">Walking
+            <br>
+            <input type="submit" value="enter">
+        </form>
+
+        <h4>Text Area</h4>
+        <p>In a "textarea" you can set up a box for the user to enter text, such as a comment box or special instructions. It gives the user a box where
+            they can type text in to be sent to the target. It is used to collect comments. In the "form" tags use "textarea" tags and set the name to describe what it is collecting
+         and can set a sizze using "rows=" and "cols=". Leave a space between the open and close "textarea" tag to make sure the box is empty</p>
+         <p>I do not belive that the place holder trick works here. You can simply put text between the "textarea" tags to write something
+             into the box to start with. ex "comments", where "comments" will appear in the text box, which the user can delete and then
+             write their comment.
+         </p>
+         <form>
+             <label>Text Area</label>
+             <br>
+            <textarea name="comments" rows="5" cols="15">Comments </textarea>
+            <br>
+            <input type="submit" value="enter">
+            </form>
+
+        <h4>Submit Button</h4>
+        <p>The Submit button is an input used in each form to allow the user to send the info to the target to be processed. Simply put an "input"
+            tag with the type of "submit" and a value which will be displayed on the submit button.</p>
+        <form>
+            <label>Submit Buttom</label>
+            <input type="submit" value="enter">
+        </form>
+        <footer>Contant me here by <a href="mailto:mikepcannbass@gmail.com">email</a> or by phone at
+            <b>403.629.5882</b></footer>
+        </div>
+        <nav>
+        
+            <ul id="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lists.html">Lists</a></li>            
+                <li><a href="forms.html">Forms</a></li>        
+                <li><a href="tables.html">Tables</a></li>    
+                <li><a href="extras.html">Extras</a></li>    
+
+            </ul>
+        </nav>   
+       
+        
+    </body>
+</html>
