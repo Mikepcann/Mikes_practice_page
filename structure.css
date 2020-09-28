@@ -21,7 +21,8 @@ h4 {
   border: 2px solid black;
   padding: 15px;
   background-clip: padding-box;
-  
+  border-radius: 10px;
+  width: 200px;
     
 }
 h5 {
@@ -32,6 +33,7 @@ h5 {
     font-weight: 600;
     color: black;
     padding: 8px 10px;
+    border-radius: 10px;
 }
 
 footer {
@@ -41,6 +43,7 @@ footer {
     margin: 20px auto;
     max-width: 400px;
     text-align: center;
+    border-radius: 10px;
 }
 
 li, ul, ol, dl {
@@ -65,8 +68,10 @@ h4, footer {
   padding-bottom: 20px;
   min-width: 10px;
   border: black solid 2px;
+  border-radius: 10px;
   max-height: 100px;
   background-color: rgb(164, 187, 195);
+  margin-left: 5px;
   
 }
 #centerDoc {
