@@ -8,7 +8,7 @@ body {
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 38px;
-    color: rgb(38, 8, 121);
+    color: rgb(65, 61, 61);
     text-align: center;
     text-decoration: underline;
     padding-left: 180px;
@@ -40,18 +40,21 @@ li, ul, ol, dl {
     color: rgb(39, 20, 18);
 }
 
+a {
+    text-decoration: none;
+}
+
 /*test comment*/ 
 
 #navigation {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 100px; /* Set the width of the sidebar */
+    width: 54px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 30px 25px;
     min-width: 10px;
     border: black solid 2px;
     border-radius: 10px;
@@ -59,7 +62,8 @@ li, ul, ol, dl {
     background-color: rgb(164, 187, 195);
     margin-left: 5px;
     margin-right: 10px;
-  
+    list-style-type: none;
+    color: slategray;
 }
 #centerDoc {
     position: absolute;
@@ -72,3 +76,13 @@ li, ul, ol, dl {
     max-width: 1200px;
     min-width: 400px;
 }
+li a:hover {
+    color: rgb(65, 61, 61);
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase; 
+}
+
+a:visited {
+    color:blue;
+  }
