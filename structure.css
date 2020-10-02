@@ -8,9 +8,15 @@ body {
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 38px;
-    color: rgb(65, 61, 61);
+    color: #000;
     text-align: center;
     text-decoration: underline;
+    background: rgb(164, 187, 195);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 300px;
+    padding: 10px 10px;
 }
 
 p {
@@ -35,19 +41,24 @@ footer {
     width: fit-content; 
 }
 
+footer:hover{
+    background-color: rgb(124, 134, 161);
+}
 li, ul, ol, dl {
     color: rgb(39, 20, 18);
+    line-height: 200%;
 }
 
 a {
     text-decoration: none;
 }
 
+
 /*test comment*/ 
 
 #navigation {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 54px; /* Set the width of the sidebar */
+    width: 100px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -55,10 +66,10 @@ a {
     overflow-x: hidden; /* Disable horizontal scroll */
     padding: 30px 25px;
     min-width: 10px;
-    border: black solid 2px;
-    border-radius: 10px;
-    max-height: 100px;
-    background-color: rgb(164, 187, 195);
+    border-right: black solid 2px; 
+    /* border-radius: 10px;*/
+    height: 400px;
+    /*background-color: rgb(164, 187, 195); */
     margin-left: 5px;
     margin-right: 10px;
     list-style-type: none;
@@ -75,14 +86,47 @@ a {
     max-width: 1200px;
     min-width: 400px;
 }
-li a:hover {
-    color: rgb(65, 61, 61);
+ a:link, a:visited  {
+    color: #000; 
+    text-decoration: none; 
+    background-color: #A2B7CF;
+    padding: 5px;
+    border-radius: 10px;
+    }   
+    
+    /* mouse over link */
+    #navigation a:hover { 
+    color: blue; 
+    text-decoration: none; 
+    background-color: #A2B7CF;
+    padding: 5px;
+    border-radius: 10px;
+    text-transform: uppercase;
     font-weight: bold;
-    font-size: 16px;
-    text-transform: uppercase; 
-}
-
-a:visited {
-    color:blue;
-  }
-  
+    } 
+    
+    /* selected link */
+    a:active { color: green; font-weight: bold;}
+    
+    #centerDoc a:link  {
+        color: blue;
+        text-decoration: underline;
+        background-color: rgb(162, 165, 173);
+        padding: 2px;
+        background-color: transparent;
+    }   
+    #centerDoc a:visited { 
+        color: blue;
+        text-decoration: underline;
+        background-color: rgb(162, 165, 173);
+        padding: 2px;
+        background-color: transparent;
+    }
+    #centerDoc a:hover { 
+        color: blue;
+        text-decoration: underline;
+        background-color:  rgb(162, 165, 173);
+        padding: 2px;
+        background-color: transparent;
+    } 
+    
