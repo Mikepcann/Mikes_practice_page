@@ -56,7 +56,8 @@ a {
 /*table styling*/
 table {
     width: 50%;
-    margin: auto;
+    margin: 40px auto;
+    
 }
 tr td th {
     padding: 10px;
