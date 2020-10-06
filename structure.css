@@ -11,7 +11,7 @@ h1 {
     color: #000;
     text-align: center;
     text-decoration: underline;
-    background: rgb(164, 187, 195);
+    background-color: rgb(164, 187, 195);
     border: 2px solid black;
     border-radius: 10px;
     margin: 20px auto;
@@ -22,6 +22,7 @@ h1 {
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(39, 20, 18);
+    
 }
 
 /* Background color and border for boxes*/
@@ -52,7 +53,32 @@ li, ul, ol, dl {
 a {
     text-decoration: none;
 }
-
+/*table styling*/
+table {
+    width: 50%;
+    margin: auto;
+}
+tr td th {
+    padding: 10px;
+}
+td {
+    padding: 10px;
+}
+caption {
+    font-size: 2em; 
+    padding: 10px; 
+    background-color: #A2B7CF;
+    color: black;
+    border: 2px solid black;
+    border-bottom: none;
+}
+th {
+    padding: 10px;
+    background-color: rgb(164, 187, 195);
+}
+tr:nth-child(even) {
+    background-color:#A2B7CF;
+}
 
 /*test comment*/ 
 
