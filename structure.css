@@ -2,7 +2,10 @@
 /* hmtl tag selectors */
 body {
     z-index: 2;
-    background-color:rgb(162, 165, 173);
+    /*background-color:rgb(162, 165, 173);*/
+    background-image: url('images/pexels-henry-&-co-1939485.jpg');
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -11,12 +14,16 @@ h1 {
     color: #000;
     text-align: center;
     text-decoration: underline;
-    background-color: rgb(164, 187, 195);
-    border: 2px solid black;
+    /*background-color: rgb(164, 187, 195);*/
+    border: 1px solid black;
     border-radius: 10px;
     margin: 20px auto;
     width: 300px;
     padding: 10px 10px;
+    background-image: url('images/concrete.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 p {
@@ -24,16 +31,27 @@ p {
     color: rgb(39, 20, 18);
     
 }
+li, ul, ol, dl {
+    color: rgb(39, 20, 18);
+    line-height: 200%;
+}
+a {
+    text-decoration: none;
+}
 
 /* Background color and border for boxes*/
 h4, footer {
-    background: rgb(164, 187, 195);
-    border: 2px solid black;
+    /*background: rgb(164, 187, 195);*/
+    border: 1px solid black;
     padding: 15px;
     background-clip: padding-box;
     border-radius: 10px;
     width: 250px;
-    color: black;  
+    color:#000;  
+    background-image: url('images/concrete.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.25em;
 }
 
 footer {
@@ -43,16 +61,11 @@ footer {
 }
 
 footer:hover{
-    background-color:#A2B7CF;
-}
-li, ul, ol, dl {
-    color: rgb(39, 20, 18);
-    line-height: 200%;
+    /*background-color:#A2B7CF;*/
+    opacity: 0.75;
+    font-weight: bolder;
 }
 
-a {
-    text-decoration: none;
-}
 /*table styling*/
 table {
     width: 50%;
@@ -81,7 +94,7 @@ tr:nth-child(even) {
     background-color:#A2B7CF;
 }
 
-/*test comment*/ 
+/*class and pseudo selectors*/ 
 
 #navigation {
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -114,20 +127,23 @@ tr:nth-child(even) {
 #navigation a:link, a:visited  {
     color: #000; 
     text-decoration: none; 
-    background-color: #A2B7CF;
+    /*background-color: #A2B7CF;*/
     padding: 5px;
     border-radius: 10px;
+    border: 1px black solid;
     display: block;
     width: 100px;
     margin-bottom: 10px;
     margin-right: 10px;
     transition: margin-bottom .35s ease-in;
+    background-image: url('images/concrete.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     }   
     
     /* mouse over link */
     #navigation a:hover { 
     text-decoration: none; 
-    background-color: #A2B7CF;
     padding: 5px;
     border-radius: 10px;
     text-transform: uppercase;
@@ -141,7 +157,7 @@ tr:nth-child(even) {
 
     /* for center doc links to keep them uniform with the page */
 
-    #centerDoc a:link  {
+    #centerDoc a:link a:visited  {
         color: blue;
         text-decoration: underline;
         background-color: rgb(162, 165, 173);
