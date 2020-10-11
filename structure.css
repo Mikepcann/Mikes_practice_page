@@ -179,7 +179,7 @@ tr:nth-child(even) {
         padding: 2px;
         background-color: transparent;
     }
-    
+
     #centerDoc a:hover { 
         color: #ff0000;
         text-decoration: underline;
