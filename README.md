@@ -1,5 +1,2 @@
-This is just a read me file to test the connection between my local system in VS code and online through github.
-
-Wish me luck!
-
-adding more to this file... Who knows what is gonna happen
+This is a project that I have been working along to help develop my HMTL and CSS skills while working though a 
+web development course from the website STUDIOWEB.COM by Steph Mischook (SP?) Thank you for taking a look at this. 
