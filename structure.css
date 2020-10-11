@@ -23,7 +23,6 @@ h1 {
     background-image: url('images/concrete.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 p {
@@ -31,10 +30,12 @@ p {
     color: rgb(39, 20, 18);
     
 }
+
 li, ul, ol, dl {
     color: rgb(39, 20, 18);
     line-height: 200%;
 }
+
 a {
     text-decoration: none;
 }
@@ -72,12 +73,15 @@ table {
     margin: 40px auto;
     
 }
+
 tr td th {
     padding: 10px;
 }
+
 td {
     padding: 10px;
 }
+
 caption {
     font-size: 2em; 
     padding: 10px; 
@@ -86,10 +90,12 @@ caption {
     border: 2px solid black;
     border-bottom: none;
 }
+
 th {
     padding: 10px;
     background-color: rgb(164, 187, 195);
 }
+
 tr:nth-child(even) {
     background-color:#A2B7CF;
 }
@@ -107,12 +113,13 @@ tr:nth-child(even) {
     padding: 30px 25px;
     min-width: 10px;
     border-right: black solid 2px; 
-    height: 400px;
+    height: 600px;
     margin-left: 5px;
     margin-right: 10px;
     list-style-type: none;
     color: slategray;
 }
+
 #centerDoc {
     position: absolute;
     z-index: 15;
@@ -124,6 +131,7 @@ tr:nth-child(even) {
     max-width: 1200px;
     min-width: 400px;
 }
+
 #navigation a:link, a:visited  {
     color: #000; 
     text-decoration: none; 
@@ -149,7 +157,6 @@ tr:nth-child(even) {
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 35px;
-    
     } 
     
     /* selected link */
@@ -164,6 +171,7 @@ tr:nth-child(even) {
         padding: 2px;
         background-color: transparent;
     }   
+
     #centerDoc a:visited { 
         color: blue;
         text-decoration: underline;
@@ -171,6 +179,7 @@ tr:nth-child(even) {
         padding: 2px;
         background-color: transparent;
     }
+    
     #centerDoc a:hover { 
         color: #ff0000;
         text-decoration: underline;
